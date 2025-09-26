@@ -1,0 +1,11 @@
+{
+  "name": "agribros",
+  "version": "1.0.0",
+  "description": "Agribros - Smart Farming Solutions demo project with HTML, CSS, JS.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "author": "Brayern",
+  "license": "None"
+}

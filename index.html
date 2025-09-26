@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agribros - Smart Farming Solutions</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Navbar, Hero, Products, Actions, Promo Card, Loader, Modal, Contact, FAQ, Output, Footer -->
+<!-- Navigation using Flexbox -->
+  <header class="navbar">
+    <div class="logo">🌱 Agribros</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Flexbox) -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Feeding the Future</h1>
+      <p>Agribros delivers smart, sustainable farming solutions for communities and businesses.</p>
+      <button>Explore Our Work</button>
+    </div>
+  </section>
+
+  <!-- Content Wrapper -->
+  <div class="content-wrapper">
+
+    <!-- Main Content (CSS Grid) -->
+    <main class="grid-container">
+      <article class="grid-item">
+        <h2>🌾 Quality Seeds</h2>
+        <p>High-yield seeds for sustainable farming and better harvests.</p>
+      </article>
+      <article class="grid-item">
+        <h2>🚜 Smart Tools</h2>
+        <p>Modern farm equipment designed for efficiency and durability.</p>
+      </article>
+      <article class="grid-item">
+        <h2>💧 Irrigation</h2>
+        <p>Smart irrigation systems to conserve water and maximize output.</p>
+      </article>
+      <article class="grid-item">
+        <h2>📊 Agritech Solutions</h2>
+        <p>Data-driven farming through precision agriculture technology.</p>
+      </article>
+    </main>
+
+    <!-- Products Section -->
+    <section id="products">
+      <h2>Our Products</h2>
+      <ul>
+        <li id="prod1">Organic Fertilizer</li>
+        <li id="prod2">Irrigation Kit</li>
+        <li id="prod3">Hybrid Seeds</li>
+      </ul>
+    </section>
+
+    <!-- Actions Section -->
+    <section id="actions">
+      <h2>Customer Actions</h2>
+      <button id="buyBtn">Buy Now</button>
+      <button id="highlightBtn">Highlight Products</button>
+      <button id="flipCardBtn">Flip Promo Card</button>
+      <button id="showLoaderBtn">Show Loader</button>
+      <button id="hideLoaderBtn">Hide Loader</button>
+      <button id="showModalBtn">Show Offers</button>
+    </section>
+
+    <!-- Promo Card -->
+    <section id="promo">
+      <div class="card" id="promoCard">
+        <div class="card-inner">
+          <div class="card-front">🌱 Agribros Deals</div>
+          <div class="card-back">💰 20% OFF Today!</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loader -->
+    <section id="loaderSection">
+      <div id="loaderBox"></div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modalOverlay">
+      <div id="modalBox">
+        <h2>Exclusive Offer 🎉</h2>
+        <p>Get free delivery on all orders above KSh 5,000!</p>
+        <button id="closeModalBtn">Close</button>
+      </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+      <h2>📩 Get in Touch</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="formMsg"></p>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <h2>❓ Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h3>What does Agribros provide?</h3>
+        <p class="answer">We provide smart farming solutions like seeds, tools, irrigation, and agritech.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How can I contact you?</h3>
+        <p class="answer">Use the contact form above or reach us on social media.</p>
+      </div>
+    </section>
+
+    <!-- Output Section -->
+    <section id="output">
+      <h2>Updates</h2>
+      <p id="message">Welcome to Agribros!</p>
+    </section>
+
+  </div> <!-- End .content-wrapper -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Agribros. All rights reserved.</p>
+    <div class="socials">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
